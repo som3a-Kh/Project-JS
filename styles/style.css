@@ -69,11 +69,7 @@ ul {
     padding: 0 40px; */
 }
 
-.navbar .logo {
-    /* display: flex;
-    align-items: center;
-    padding-top: 20px; */
-}
+
 
 .navbar .links {
     display: flex;
@@ -340,7 +336,6 @@ header {
 
 
 
-.banner-section .banner-section-content .readmore_btn .white_arrow {}
 
 .banner-section .banner_image {
     position: absolute;
@@ -722,7 +717,6 @@ header {
     top: 50px;
 }
 
-.services_section .services_box .services_image::after {}
 
 .services_section .services_box:hover .services_box_content {
     background-color: var(--second-color);
@@ -821,9 +815,7 @@ header {
 }
 
 
-.cases-section .case-studies-images {
-    /* right: -30px !important; */
-}
+
 
 .cases-section .case-studies-images .case-image2 {
     float: right;
@@ -1189,7 +1181,7 @@ header {
     z-index: 1;
 }
 
-.section-team .card-team .team-box {}
+
 
 .section-team .card-team .team-box h4 {
     color: var(--second-color);
@@ -1400,10 +1392,7 @@ header {
     z-index: 1;
 }
 
-.section-questions .questionnaire_bottom_shape {
-    /* bottom: -10px;
-    right: -10px; */
-}
+
 
 .section-questions .questionniare-images_wrapper .questionnaire_image_shape1 {
     top: 340px;
