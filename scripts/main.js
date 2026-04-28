@@ -9,6 +9,29 @@ $(document).on('click' , function(){
     $('.dropdown').removeClass('open');
 })
 // end dropdown 
+
+
+
+
+
+// Scroll To Top
+$(window).scroll(function(){
+    if($(this).scrollTop() > 200){
+        $('#scrollTop').addClass('show');
+    } else {
+        $('#scrollTop').removeClass('show');
+    }
+});
+
+$('#scrollTop').click(function(e){
+    e.preventDefault();
+     $(window).scrollTop(0);
+});
+
+
+
+
+
 AOS.init();
 
 
